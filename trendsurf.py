@@ -19,14 +19,14 @@ import nibabel as nib
 def load_data(datafile,maskfile):
 
     dataImg = nib.load(datafile)
-    data = dataImg.get_data()
+    data = dataImg.get_fdata()
     dim = data.shape
     if len(dim) <= 3:
         dim = dim + (1,)
     data = np.reshape(data,(np.prod(dim[0:3]),dim[3]))
 
     maskImg = nib.load(maskfile)
-    mask = maskImg.get_data()
+    mask = maskImg.get_fdata()
     mask = np.reshape(mask,(np.prod(dim[0:3])))
     maskIndices = np.where(mask==1)[0]
     data = data[maskIndices,:]

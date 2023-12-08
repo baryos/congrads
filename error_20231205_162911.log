@@ -1,0 +1,4 @@
+  File "conmap.py", line 34
+    print(X.shape)
+                 ^
+TabError: inconsistent use of tabs and spaces in indentation

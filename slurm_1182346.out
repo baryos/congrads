@@ -1,0 +1,21 @@
+1182346
+
+Usage:
+./congrads -i <input> -r <roi> -m <mask> -o <out> [options]
+
+Compulsory arguments:
+	-i		input file name [4D image]
+	-r		region-of-interest [3D binary image]
+	-m		mask [3D binary image]
+	-o		path to output directory
+
+Optional arguments:
+	-n <int>	number of connectopic maps [default=1]
+	-s		save eta-squared matrix
+	-z		normalise output maps to range [0-1]
+	-p		project connectopic maps into mask
+	-f <int>	fit spatial model of order <int>
+	-F <int>	fit spatial model of order <int>
+			to pre-estimated connectopic map(s)
+			compulsory arguments: -i -r -o
+

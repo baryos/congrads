@@ -1,0 +1,1740 @@
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:07:24
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:10:28
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:13:27
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:16:16
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:19:01
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:19:01
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM03/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:19:02
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM03/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:21:59
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM03/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:24:55
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM03/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM03/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM03/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:27:42
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM03/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:30:27
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM03/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM03/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM03/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:30:28
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM03/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM03/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM02/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:30:29
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM02/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:33:38
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM02/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:36:40
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM02/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM02/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM02/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:39:23
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM02/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:42:06
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM02/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM02/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM02/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:42:07
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM02/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM02/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM08/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:42:07
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM08/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:45:06
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM08/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:48:26
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM08/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM08/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM08/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:51:17
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM08/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:54:12
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM08/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM08/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM08/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:54:13
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM08/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM08/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM04/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:54:13
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM04/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 18:57:15
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM04/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:00:07
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM04/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM04/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM04/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:02:47
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM04/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:05:34
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM04/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM04/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM04/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:05:35
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM04/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM04/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM06/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:05:36
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM06/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:08:30
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM06/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:11:31
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM06/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM06/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM06/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:14:13
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM06/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:17:07
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM06/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM06/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM06/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:17:08
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM06/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM06/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM05/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:17:09
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM05/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:20:00
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM05/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:22:48
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM05/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM05/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM05/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:25:33
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM05/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:28:15
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM05/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM05/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM05/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:28:16
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM05/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM05/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM10/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:28:16
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM10/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:31:08
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM10/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:34:00
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM10/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM10/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM10/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:36:49
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM10/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:39:35
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM10/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM10/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM10/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:39:36
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM10/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM10/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM09/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:39:37
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM09/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:42:35
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM09/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:45:41
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM09/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM09/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM09/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:48:28
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM09/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:51:06
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM09/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM09/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM09/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:51:07
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM09/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM09/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM11/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:51:08
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM11/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:53:56
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM11/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 19:57:25
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM11/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM11/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM11/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:00:24
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM11/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:03:11
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM11/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM11/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM11/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:03:12
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM11/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM11/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM17/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:03:13
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM17/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:06:11
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM17/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:09:15
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM17/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM17/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM17/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:12:17
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM17/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:15:09
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM17/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM17/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM17/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:15:10
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM17/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM17/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM14/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:15:11
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM14/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:18:13
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM14/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:21:05
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM14/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM14/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM14/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:24:00
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM14/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:26:48
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM14/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM14/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM14/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:26:49
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM14/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM14/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM12/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:26:49
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM12/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:29:57
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM12/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:32:50
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM12/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM12/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM12/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:36:14
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM12/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:39:07
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM12/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM12/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM12/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:39:08
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM12/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM12/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM15/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:39:09
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM15/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:42:06
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM15/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:46:23
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM15/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM15/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM15/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:49:15
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM15/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:52:08
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM15/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM15/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM15/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:52:09
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM15/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM15/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM16/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:52:10
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM16/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:55:11
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM16/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 20:57:58
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM16/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM16/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM16/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:00:43
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM16/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:03:26
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM16/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM16/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM16/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:03:27
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM16/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM16/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM13/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:03:28
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM13/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:06:32
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM13/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:09:32
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM13/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM13/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM13/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:12:20
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM13/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:15:17
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM13/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM13/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM13/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:15:18
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM13/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM13/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM19/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:15:19
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM19/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:18:17
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM19/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:21:03
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM19/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM19/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM19/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:23:48
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM19/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:26:29
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM19/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM19/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM19/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:26:30
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM19/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM19/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM18/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:26:31
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM18/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:29:24
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM18/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:32:19
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM18/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM18/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM18/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:34:59
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM18/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:37:51
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM18/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM18/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM18/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:37:52
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM18/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM18/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM20/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:37:53
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM20/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:40:47
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM20/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:43:42
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM20/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM20/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM20/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:46:35
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM20/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:49:24
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM20/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM20/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM20/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:49:25
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM20/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM20/._/._.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM21/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:49:26
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM21/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:52:17
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM21/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:55:15
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM21/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM21/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM21/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 21:57:54
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM21/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 22:01:11
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM21/.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM21/.DS_Store.cmaps.nii.gz'
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM21/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-06 22:01:12
+Traceback (most recent call last):
+  File "conmap.py", line 114, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 107, in load
+    raise ImageFileError(f'Cannot work out file type of "{filename}"')
+nibabel.filebasedimages.ImageFileError: Cannot work out file type of "/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/._.DS_Store"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 117, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Traceback (most recent call last):
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM21/._/._.DS_Store.cmaps.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trendsurf.py", line 164, in <module>
+    main(args.filename, args.maskfile, args.outdir, args.basis)
+  File "trendsurf.py", line 90, in main
+    Y,X,maskIndices = load_data(filename,maskfile)
+  File "trendsurf.py", line 21, in load_data
+    dataImg = nib.load(datafile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM21/._/._.DS_Store.cmaps.nii.gz'

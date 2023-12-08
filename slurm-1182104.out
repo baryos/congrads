@@ -1,0 +1,3 @@
+slurmstepd: error: Job 1182104 exceeded memory limit (11744260 > 4067328), being killed
+slurmstepd: error: Exceeded job memory limit
+slurmstepd: error: *** JOB 1182104 ON c11 CANCELLED AT 2023-12-03T22:23:33 ***

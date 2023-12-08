@@ -1,0 +1,898 @@
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/mc/prefiltered_func_data_mcf_conf_hp.nii.gz at 2023-12-05 23:40:45
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 170, in main
+    data = np.reshape(data,(nVoxels,nFrames))
+  File "<__array_function__ internals>", line 6, in reshape
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 298, in reshape
+    return _wrapfunc(a, 'reshape', newshape, order=order)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 57, in _wrapfunc
+    return bound(*args, **kwds)
+ValueError: cannot reshape array of size 22944 into shape (902629,956)
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/mc/prefiltered_func_data_mcf_conf.nii.gz at 2023-12-05 23:40:46
+Traceback (most recent call last):
+  File "conmap.py", line 296, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 170, in main
+    data = np.reshape(data,(nVoxels,nFrames))
+  File "<__array_function__ internals>", line 6, in reshape
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 298, in reshape
+    return _wrapfunc(a, 'reshape', newshape, order=order)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 57, in _wrapfunc
+    return bound(*args, **kwds)
+ValueError: cannot reshape array of size 22944 into shape (902629,956)
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/mask.nii.gz at 2023-12-05 23:40:46
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/mask.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/mean.nii.gz at 2023-12-05 23:40:47
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/mean.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_oIC.nii.gz at 2023-12-05 23:40:47
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_IC.nii.gz at 2023-12-05 23:41:12
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/Noise__inv.nii.gz at 2023-12-05 23:41:36
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/Noise__inv.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_pca.nii.gz at 2023-12-05 23:41:36
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_1.nii.gz at 2023-12-05 23:42:01
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_1.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat1.nii.gz at 2023-12-05 23:42:01
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat1.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_2.nii.gz at 2023-12-05 23:42:02
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat2.nii.gz at 2023-12-05 23:42:02
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_3.nii.gz at 2023-12-05 23:42:02
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_3.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat3.nii.gz at 2023-12-05 23:42:03
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat3.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_4.nii.gz at 2023-12-05 23:42:03
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_4.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat4.nii.gz at 2023-12-05 23:42:03
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat4.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_5.nii.gz at 2023-12-05 23:42:04
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_5.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat5.nii.gz at 2023-12-05 23:42:04
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat5.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_6.nii.gz at 2023-12-05 23:42:05
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_6.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat6.nii.gz at 2023-12-05 23:42:05
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat6.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_7.nii.gz at 2023-12-05 23:42:05
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_7.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat7.nii.gz at 2023-12-05 23:42:06
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat7.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_8.nii.gz at 2023-12-05 23:42:06
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_8.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat8.nii.gz at 2023-12-05 23:42:06
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat8.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_9.nii.gz at 2023-12-05 23:42:07
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_9.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat9.nii.gz at 2023-12-05 23:42:07
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat9.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_10.nii.gz at 2023-12-05 23:42:08
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_10.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat10.nii.gz at 2023-12-05 23:42:08
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat10.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_11.nii.gz at 2023-12-05 23:42:08
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_11.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat11.nii.gz at 2023-12-05 23:42:09
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat11.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_12.nii.gz at 2023-12-05 23:42:09
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_12.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat12.nii.gz at 2023-12-05 23:42:09
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat12.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_13.nii.gz at 2023-12-05 23:42:10
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_13.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat13.nii.gz at 2023-12-05 23:42:10
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat13.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_14.nii.gz at 2023-12-05 23:42:11
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_14.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat14.nii.gz at 2023-12-05 23:42:11
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat14.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_15.nii.gz at 2023-12-05 23:42:11
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_15.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat15.nii.gz at 2023-12-05 23:42:12
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat15.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_16.nii.gz at 2023-12-05 23:42:12
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_16.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat16.nii.gz at 2023-12-05 23:42:13
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat16.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_17.nii.gz at 2023-12-05 23:42:13
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_17.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat17.nii.gz at 2023-12-05 23:42:13
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat17.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_18.nii.gz at 2023-12-05 23:42:14
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_18.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat18.nii.gz at 2023-12-05 23:42:14
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat18.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_19.nii.gz at 2023-12-05 23:42:15
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_19.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat19.nii.gz at 2023-12-05 23:42:15
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat19.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_20.nii.gz at 2023-12-05 23:42:15
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_20.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat20.nii.gz at 2023-12-05 23:42:16
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat20.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_21.nii.gz at 2023-12-05 23:42:16
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_21.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat21.nii.gz at 2023-12-05 23:42:17
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat21.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_22.nii.gz at 2023-12-05 23:42:17
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_22.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat22.nii.gz at 2023-12-05 23:42:17
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat22.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_23.nii.gz at 2023-12-05 23:42:18
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_23.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat23.nii.gz at 2023-12-05 23:42:18
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat23.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_24.nii.gz at 2023-12-05 23:42:18
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_24.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat24.nii.gz at 2023-12-05 23:42:19
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat24.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_25.nii.gz at 2023-12-05 23:42:19
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_25.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat25.nii.gz at 2023-12-05 23:42:20
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat25.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_26.nii.gz at 2023-12-05 23:42:20
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_26.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat26.nii.gz at 2023-12-05 23:42:20
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat26.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_27.nii.gz at 2023-12-05 23:42:21
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_27.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat27.nii.gz at 2023-12-05 23:42:21
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat27.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_28.nii.gz at 2023-12-05 23:42:22
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_28.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat28.nii.gz at 2023-12-05 23:42:22
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat28.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_29.nii.gz at 2023-12-05 23:42:22
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_29.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat29.nii.gz at 2023-12-05 23:42:23
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat29.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_30.nii.gz at 2023-12-05 23:42:23
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_30.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat30.nii.gz at 2023-12-05 23:42:23
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat30.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_31.nii.gz at 2023-12-05 23:42:24
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_31.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat31.nii.gz at 2023-12-05 23:42:24
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat31.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_32.nii.gz at 2023-12-05 23:42:25
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_32.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat32.nii.gz at 2023-12-05 23:42:25
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat32.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_33.nii.gz at 2023-12-05 23:42:25
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_33.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat33.nii.gz at 2023-12-05 23:42:26
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat33.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_34.nii.gz at 2023-12-05 23:42:26
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_34.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat34.nii.gz at 2023-12-05 23:42:27
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat34.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_35.nii.gz at 2023-12-05 23:42:27
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_35.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat35.nii.gz at 2023-12-05 23:42:27
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat35.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_36.nii.gz at 2023-12-05 23:42:28
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_36.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat36.nii.gz at 2023-12-05 23:42:28
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat36.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_37.nii.gz at 2023-12-05 23:42:29
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_37.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat37.nii.gz at 2023-12-05 23:42:29
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat37.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_38.nii.gz at 2023-12-05 23:42:29
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_38.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat38.nii.gz at 2023-12-05 23:42:30
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat38.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_39.nii.gz at 2023-12-05 23:42:30
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_39.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat39.nii.gz at 2023-12-05 23:42:30
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat39.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_40.nii.gz at 2023-12-05 23:42:31
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_40.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat40.nii.gz at 2023-12-05 23:42:31
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat40.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_41.nii.gz at 2023-12-05 23:42:31
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_41.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat41.nii.gz at 2023-12-05 23:42:32
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat41.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_42.nii.gz at 2023-12-05 23:42:32
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_42.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat42.nii.gz at 2023-12-05 23:42:33
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat42.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_43.nii.gz at 2023-12-05 23:42:33
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_43.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat43.nii.gz at 2023-12-05 23:42:33
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat43.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_44.nii.gz at 2023-12-05 23:42:34
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_44.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat44.nii.gz at 2023-12-05 23:42:34
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat44.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_45.nii.gz at 2023-12-05 23:42:34
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_45.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat45.nii.gz at 2023-12-05 23:42:35
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat45.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_46.nii.gz at 2023-12-05 23:42:35
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_46.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat46.nii.gz at 2023-12-05 23:42:36
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat46.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_47.nii.gz at 2023-12-05 23:42:36
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_47.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat47.nii.gz at 2023-12-05 23:42:36
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat47.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_48.nii.gz at 2023-12-05 23:42:37
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_48.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat48.nii.gz at 2023-12-05 23:42:37
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat48.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_49.nii.gz at 2023-12-05 23:42:38
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_49.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat49.nii.gz at 2023-12-05 23:42:38
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat49.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_50.nii.gz at 2023-12-05 23:42:38
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_50.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat50.nii.gz at 2023-12-05 23:42:39
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat50.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_51.nii.gz at 2023-12-05 23:42:39
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_51.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat51.nii.gz at 2023-12-05 23:42:39
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat51.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_52.nii.gz at 2023-12-05 23:42:40
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_52.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat52.nii.gz at 2023-12-05 23:42:40
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat52.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_53.nii.gz at 2023-12-05 23:42:41
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_53.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat53.nii.gz at 2023-12-05 23:42:41
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat53.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_54.nii.gz at 2023-12-05 23:42:41
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_54.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat54.nii.gz at 2023-12-05 23:42:42
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat54.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_55.nii.gz at 2023-12-05 23:42:42
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_55.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat55.nii.gz at 2023-12-05 23:42:43
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat55.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_56.nii.gz at 2023-12-05 23:42:43
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_56.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat56.nii.gz at 2023-12-05 23:42:43
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat56.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_57.nii.gz at 2023-12-05 23:42:44
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_57.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat57.nii.gz at 2023-12-05 23:42:44
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat57.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_58.nii.gz at 2023-12-05 23:42:45
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_58.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat58.nii.gz at 2023-12-05 23:42:45
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat58.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_59.nii.gz at 2023-12-05 23:42:45
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_59.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat59.nii.gz at 2023-12-05 23:42:46
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat59.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_60.nii.gz at 2023-12-05 23:42:46
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_60.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat60.nii.gz at 2023-12-05 23:42:46
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat60.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_61.nii.gz at 2023-12-05 23:42:47
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_61.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat61.nii.gz at 2023-12-05 23:42:47
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat61.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_62.nii.gz at 2023-12-05 23:42:48
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_62.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat62.nii.gz at 2023-12-05 23:42:48
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat62.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_63.nii.gz at 2023-12-05 23:42:48
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_63.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat63.nii.gz at 2023-12-05 23:42:49
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat63.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_64.nii.gz at 2023-12-05 23:42:49
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_64.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat64.nii.gz at 2023-12-05 23:42:50
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat64.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_65.nii.gz at 2023-12-05 23:42:50
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_65.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat65.nii.gz at 2023-12-05 23:42:50
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat65.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_66.nii.gz at 2023-12-05 23:42:51
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_66.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat66.nii.gz at 2023-12-05 23:42:51
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat66.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_67.nii.gz at 2023-12-05 23:42:52
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_67.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat67.nii.gz at 2023-12-05 23:42:52
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat67.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_68.nii.gz at 2023-12-05 23:42:52
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_68.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat68.nii.gz at 2023-12-05 23:42:53
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat68.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_69.nii.gz at 2023-12-05 23:42:53
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_69.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat69.nii.gz at 2023-12-05 23:42:53
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat69.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_70.nii.gz at 2023-12-05 23:42:54
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_70.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat70.nii.gz at 2023-12-05 23:42:54
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat70.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_71.nii.gz at 2023-12-05 23:42:55
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_71.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat71.nii.gz at 2023-12-05 23:42:55
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat71.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_72.nii.gz at 2023-12-05 23:42:55
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_72.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat72.nii.gz at 2023-12-05 23:42:56
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat72.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_73.nii.gz at 2023-12-05 23:42:56
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_73.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat73.nii.gz at 2023-12-05 23:42:57
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat73.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_74.nii.gz at 2023-12-05 23:42:57
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_74.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat74.nii.gz at 2023-12-05 23:42:57
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat74.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_75.nii.gz at 2023-12-05 23:42:58
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_75.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat75.nii.gz at 2023-12-05 23:42:58
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat75.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_76.nii.gz at 2023-12-05 23:42:58
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_76.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat76.nii.gz at 2023-12-05 23:42:59
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat76.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_77.nii.gz at 2023-12-05 23:42:59
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_77.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat77.nii.gz at 2023-12-05 23:43:00
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat77.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_78.nii.gz at 2023-12-05 23:43:00
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_78.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat78.nii.gz at 2023-12-05 23:43:00
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat78.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_79.nii.gz at 2023-12-05 23:43:01
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_79.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat79.nii.gz at 2023-12-05 23:43:01
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat79.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_80.nii.gz at 2023-12-05 23:43:02
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_80.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat80.nii.gz at 2023-12-05 23:43:02
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat80.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_81.nii.gz at 2023-12-05 23:43:02
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_81.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat81.nii.gz at 2023-12-05 23:43:03
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat81.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_82.nii.gz at 2023-12-05 23:43:03
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_82.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat82.nii.gz at 2023-12-05 23:43:04
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat82.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_83.nii.gz at 2023-12-05 23:43:04
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_83.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat83.nii.gz at 2023-12-05 23:43:04
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat83.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_84.nii.gz at 2023-12-05 23:43:05
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_84.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat84.nii.gz at 2023-12-05 23:43:05
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat84.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_85.nii.gz at 2023-12-05 23:43:05
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_85.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat85.nii.gz at 2023-12-05 23:43:06
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat85.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_86.nii.gz at 2023-12-05 23:43:06
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_86.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat86.nii.gz at 2023-12-05 23:43:07
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat86.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_87.nii.gz at 2023-12-05 23:43:07
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_87.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat87.nii.gz at 2023-12-05 23:43:07
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat87.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_88.nii.gz at 2023-12-05 23:43:08
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_88.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat88.nii.gz at 2023-12-05 23:43:08
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat88.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_89.nii.gz at 2023-12-05 23:43:08
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_89.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat89.nii.gz at 2023-12-05 23:43:09
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat89.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_90.nii.gz at 2023-12-05 23:43:09
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_90.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat90.nii.gz at 2023-12-05 23:43:10
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat90.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_91.nii.gz at 2023-12-05 23:43:10
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_91.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat91.nii.gz at 2023-12-05 23:43:10
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat91.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_92.nii.gz at 2023-12-05 23:43:11
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_92.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat92.nii.gz at 2023-12-05 23:43:11
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat92.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_93.nii.gz at 2023-12-05 23:43:12
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_93.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat93.nii.gz at 2023-12-05 23:43:12
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat93.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_94.nii.gz at 2023-12-05 23:43:12
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_94.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat94.nii.gz at 2023-12-05 23:43:13
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat94.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_95.nii.gz at 2023-12-05 23:43:13
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_95.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat95.nii.gz at 2023-12-05 23:43:13
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat95.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_96.nii.gz at 2023-12-05 23:43:14
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_96.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat96.nii.gz at 2023-12-05 23:43:14
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat96.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_97.nii.gz at 2023-12-05 23:43:15
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_97.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat97.nii.gz at 2023-12-05 23:43:15
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat97.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_98.nii.gz at 2023-12-05 23:43:15
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_98.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat98.nii.gz at 2023-12-05 23:43:16
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat98.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_99.nii.gz at 2023-12-05 23:43:16
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_99.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat99.nii.gz at 2023-12-05 23:43:16
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat99.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_100.nii.gz at 2023-12-05 23:43:17
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_100.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat100.nii.gz at 2023-12-05 23:43:17
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat100.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_101.nii.gz at 2023-12-05 23:43:18
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_101.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat101.nii.gz at 2023-12-05 23:43:18
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat101.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_102.nii.gz at 2023-12-05 23:43:18
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_102.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat102.nii.gz at 2023-12-05 23:43:19
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat102.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_103.nii.gz at 2023-12-05 23:43:19
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_103.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat103.nii.gz at 2023-12-05 23:43:19
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat103.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_104.nii.gz at 2023-12-05 23:43:20
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_104.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat104.nii.gz at 2023-12-05 23:43:20
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat104.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_105.nii.gz at 2023-12-05 23:43:21
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_105.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat105.nii.gz at 2023-12-05 23:43:21
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat105.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_106.nii.gz at 2023-12-05 23:43:21
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_106.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat106.nii.gz at 2023-12-05 23:43:22
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat106.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_107.nii.gz at 2023-12-05 23:43:22
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_107.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat107.nii.gz at 2023-12-05 23:43:23
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat107.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_108.nii.gz at 2023-12-05 23:43:23
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_108.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat108.nii.gz at 2023-12-05 23:43:23
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat108.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_109.nii.gz at 2023-12-05 23:43:24
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_109.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat109.nii.gz at 2023-12-05 23:43:24
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat109.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_110.nii.gz at 2023-12-05 23:43:25
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_110.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat110.nii.gz at 2023-12-05 23:43:25
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat110.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_111.nii.gz at 2023-12-05 23:43:25
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_111.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat111.nii.gz at 2023-12-05 23:43:26
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat111.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_112.nii.gz at 2023-12-05 23:43:26
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_112.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat112.nii.gz at 2023-12-05 23:43:26
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat112.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_113.nii.gz at 2023-12-05 23:43:27
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_113.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat113.nii.gz at 2023-12-05 23:43:27
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat113.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_114.nii.gz at 2023-12-05 23:43:28
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_114.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat114.nii.gz at 2023-12-05 23:43:28
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat114.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_115.nii.gz at 2023-12-05 23:43:28
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_115.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat115.nii.gz at 2023-12-05 23:43:29
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat115.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_mix.sdseries.nii at 2023-12-05 23:43:29
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_mix.sdseries.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_oIC_vol.dscalar.nii at 2023-12-05 23:43:30
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_oIC_vol.dscalar.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_oIC.dscalar.nii at 2023-12-05 23:43:33
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_oIC.dscalar.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_FTmix.sdseries.nii at 2023-12-05 23:43:34
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_FTmix.sdseries.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/reg/veins.nii.gz at 2023-12-05 23:43:34
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/reg/veins.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/reg/veinbrainmask.nii.gz at 2023-12-05 23:43:35
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/reg/veinbrainmask.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/reg/veins_exf.nii.gz at 2023-12-05 23:43:35
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/reg/veins_exf.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske1.nii.gz at 2023-12-05 23:43:36
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske1.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske2.nii.gz at 2023-12-05 23:43:36
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske3.nii.gz at 2023-12-05 23:43:36
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske3.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske4.nii.gz at 2023-12-05 23:43:37
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske4.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske5.nii.gz at 2023-12-05 23:43:37
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske5.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge1.nii.gz at 2023-12-05 23:43:38
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge1.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge2.nii.gz at 2023-12-05 23:43:38
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge3.nii.gz at 2023-12-05 23:43:38
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge3.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge4.nii.gz at 2023-12-05 23:43:39
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge4.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge5.nii.gz at 2023-12-05 23:43:39
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge5.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_seg.nii.gz at 2023-12-05 23:43:40
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_seg.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pve_0.nii.gz at 2023-12-05 23:43:40
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pve_0.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pve_1.nii.gz at 2023-12-05 23:43:41
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pve_1.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pve_2.nii.gz at 2023-12-05 23:43:41
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pve_2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pveseg.nii.gz at 2023-12-05 23:43:42
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pveseg.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_mixeltype.nii.gz at 2023-12-05 23:43:43
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_mixeltype.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/subcort.nii.gz at 2023-12-05 23:43:43
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/subcort.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/hr2exf.nii.gz at 2023-12-05 23:43:44
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/hr2exf.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc0.nii.gz at 2023-12-05 23:43:44
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc0.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc0dil.nii.gz at 2023-12-05 23:43:45
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc0dil.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc0dil2.nii.gz at 2023-12-05 23:43:45
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc0dil2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc1.nii.gz at 2023-12-05 23:43:45
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc1.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc1dil.nii.gz at 2023-12-05 23:43:46
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc1dil.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc1dil2.nii.gz at 2023-12-05 23:43:46
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc1dil2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc2.nii.gz at 2023-12-05 23:43:47
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc2dil.nii.gz at 2023-12-05 23:43:47
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc2dil.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc2dil2.nii.gz at 2023-12-05 23:43:47
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc2dil2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc3.nii.gz at 2023-12-05 23:43:48
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc3.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc3dil.nii.gz at 2023-12-05 23:43:48
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc3dil.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc3dil2.nii.gz at 2023-12-05 23:43:48
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc3dil2.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/hr2exfTMP.nii.gz at 2023-12-05 23:43:49
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/hr2exfTMP.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz at 2023-12-05 23:43:49
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean_vn.nii.gz at 2023-12-05 23:45:28
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean_vn.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_SBRef.nii.gz at 2023-12-05 23:45:29
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_SBRef.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_mean.nii.gz at 2023-12-05 23:45:29
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_mean.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000_vn.nii.gz at 2023-12-05 23:45:30
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000_vn.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA.nii.gz at 2023-12-05 23:45:30
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.nii.gz at 2023-12-05 23:47:10
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_brain_mask.nii.gz at 2023-12-05 23:49:40
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_brain_mask.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000_clean.nii.gz at 2023-12-05 23:49:41
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_mean.dscalar.nii at 2023-12-05 23:51:16
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_mean.dscalar.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas.dtseries.nii at 2023-12-05 23:51:17
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas.dtseries.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000_vn.dscalar.nii at 2023-12-05 23:51:19
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000_vn.dscalar.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000.dtseries.nii at 2023-12-05 23:51:20
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000.dtseries.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000_clean.dtseries.nii at 2023-12-05 23:51:21
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000_clean.dtseries.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000_clean_vn.nii.gz at 2023-12-05 23:51:23
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000_clean_vn.nii.gz is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000_clean_vn.dscalar.nii at 2023-12-05 23:51:23
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000_clean_vn.dscalar.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_mean.dscalar.nii at 2023-12-05 23:51:24
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_mean.dscalar.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test.dtseries.nii at 2023-12-05 23:51:25
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test.dtseries.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000_clean.dtseries.nii at 2023-12-05 23:51:26
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000_clean.dtseries.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000_vn.dscalar.nii at 2023-12-05 23:51:28
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000_vn.dscalar.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000.dtseries.nii at 2023-12-05 23:51:28
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000.dtseries.nii is not a 4D image
+Exiting.
+Job started for /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000_clean_vn.dscalar.nii at 2023-12-05 23:51:30
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000_clean_vn.dscalar.nii is not a 4D image
+Exiting.

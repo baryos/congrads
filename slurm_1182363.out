@@ -1,0 +1,721 @@
+1182363
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 211756)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM01/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM01/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM01/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 578.792346
+         Iterations: 2
+         Function evaluations: 47
+Variance explained = 83.75880654096042 % RMSE = 0.007781378842262999
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1271.468396
+         Iterations: 3
+         Function evaluations: 74
+Variance explained = 40.00241076684375 % RMSE = 0.015740266874578333
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1478.676148
+         Iterations: 3
+         Function evaluations: 79
+Variance explained = 7.700292814544252 % RMSE = 0.019528008110699033
+Mean (std) variance explained = 43.820503374116136 ( 31.167908184927867 )
+Mean (std) RMSE = 0.014349884609180122 ( 0.004895283234942926 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM03/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 207998)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM03/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM03/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM03/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1506.192934
+         Iterations: 3
+         Function evaluations: 79
+Variance explained = 2.074763250846501 % RMSE = 0.02044465686575546
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1507.855245
+         Iterations: 3
+         Function evaluations: 81
+Variance explained = 1.5683267823024871 % RMSE = 0.019862410324607078
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1509.603194
+         Iterations: 3
+         Function evaluations: 85
+Variance explained = 0.5193794632608273 % RMSE = 0.021354105323931935
+Mean (std) variance explained = 1.3874898321366052 ( 0.6477299764459786 )
+Mean (std) RMSE = 0.02055372417143149 ( 0.0006138459364956151 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM02/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 214861)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM02/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM02/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM02/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1457.619766
+         Iterations: 2
+         Function evaluations: 64
+Variance explained = 11.751822312673877 % RMSE = 0.02188636077576362
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 958.833790
+         Iterations: 2
+         Function evaluations: 49
+Variance explained = 66.51102070215254 % RMSE = 0.011011630006949612
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1419.727072
+         Iterations: 3
+         Function evaluations: 74
+Variance explained = 22.34841158878532 % RMSE = 0.01645013695424255
+Mean (std) variance explained = 33.53708486787058 ( 23.71402200350611 )
+Mean (std) RMSE = 0.016449375912318594 ( 0.004439590278237857 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM08/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 216753)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM08/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM08/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM08/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1168.191829
+         Iterations: 4
+         Function evaluations: 99
+Variance explained = 50.23308506712255 % RMSE = 0.015269112135449963
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1339.692097
+         Iterations: 4
+         Function evaluations: 100
+Variance explained = 30.788496639307915 % RMSE = 0.018173963497228787
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1488.144956
+         Iterations: 3
+         Function evaluations: 78
+Variance explained = 5.840392478699307 % RMSE = 0.021321877878321023
+Mean (std) variance explained = 28.95399139504326 ( 18.169605498028623 )
+Mean (std) RMSE = 0.018254984503666593 ( 0.002471695313899822 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM04/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 204027)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM04/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM04/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM04/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1044.003059
+         Iterations: 2
+         Function evaluations: 48
+Variance explained = 60.35381184756962 % RMSE = 0.011478093500174145
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1321.365311
+         Iterations: 4
+         Function evaluations: 100
+Variance explained = 38.79879189887875 % RMSE = 0.015235412848111756
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1170.220499
+         Iterations: 2
+         Function evaluations: 48
+Variance explained = 49.89656461141555 % RMSE = 0.013925794551954187
+Mean (std) variance explained = 49.683056119287976 ( 8.8010950324102 )
+Mean (std) RMSE = 0.013546433633413362 ( 0.0015571979536941093 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM06/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 213767)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM06/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM06/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM06/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 844.958685
+         Iterations: 2
+         Function evaluations: 49
+Variance explained = 73.4395923022442 % RMSE = 0.010592844350157818
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1448.474282
+         Iterations: 3
+         Function evaluations: 75
+Variance explained = 15.483727731096252 % RMSE = 0.01850289374183905
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1393.417022
+         Iterations: 3
+         Function evaluations: 73
+Variance explained = 24.753990708516092 % RMSE = 0.018525585349753078
+Mean (std) variance explained = 37.892436913952174 ( 25.418951408573925 )
+Mean (std) RMSE = 0.015873774480583316 ( 0.0037341929970739624 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM05/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 204298)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM05/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM05/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM05/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1188.316610
+         Iterations: 3
+         Function evaluations: 73
+Variance explained = 47.227761883859564 % RMSE = 0.013645792169036422
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1161.343218
+         Iterations: 2
+         Function evaluations: 48
+Variance explained = 51.9686579830046 % RMSE = 0.012521537328122789
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1508.793793
+         Iterations: 3
+         Function evaluations: 84
+Variance explained = 1.0797765045436059 % RMSE = 0.022923481184609833
+Mean (std) variance explained = 33.42539879046925 ( 22.95355433265982 )
+Mean (std) RMSE = 0.01636360356058968 ( 0.004661186048523103 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM10/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 213611)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM10/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM10/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM10/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 279.760763
+         Iterations: 2
+         Function evaluations: 47
+Variance explained = 90.79244086756914 % RMSE = 0.005542736074151525
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1250.350671
+         Iterations: 3
+         Function evaluations: 73
+Variance explained = 47.55256056008748 % RMSE = 0.014204519538091704
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 802.850118
+         Iterations: 2
+         Function evaluations: 49
+Variance explained = 74.86027093350562 % RMSE = 0.009300105337898623
+Mean (std) variance explained = 71.06842412038742 ( 17.85507190206658 )
+Mean (std) RMSE = 0.009682453650047282 ( 0.003546478616684356 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM09/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 213610)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM09/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM09/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM09/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 446.529093
+         Iterations: 2
+         Function evaluations: 47
+Variance explained = 87.41930100907827 % RMSE = 0.0067124090055971876
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1167.031994
+         Iterations: 4
+         Function evaluations: 99
+Variance explained = 53.33753523507694 % RMSE = 0.013620586293282742
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1465.289845
+         Iterations: 3
+         Function evaluations: 73
+Variance explained = 11.080727398072243 % RMSE = 0.01815171614891069
+Mean (std) variance explained = 50.61252121407582 ( 31.224602813611963 )
+Mean (std) RMSE = 0.01282823714926354 ( 0.004703566012738762 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM11/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 212200)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM11/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM11/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM11/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 296.569133
+         Iterations: 2
+         Function evaluations: 48
+Variance explained = 90.3557054398618 % RMSE = 0.006231192644712328
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1249.387794
+         Iterations: 4
+         Function evaluations: 99
+Variance explained = 44.56193069051032 % RMSE = 0.015756480219809833
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1300.378252
+         Iterations: 2
+         Function evaluations: 49
+Variance explained = 35.9040468846634 % RMSE = 0.016628547980993356
+Mean (std) variance explained = 56.94056100501183 ( 23.8909836019128 )
+Mean (std) RMSE = 0.01287207361517184 ( 0.004709288735600622 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM17/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 215679)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM17/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM17/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM17/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 933.895629
+         Iterations: 2
+         Function evaluations: 49
+Variance explained = 68.73788661796266 % RMSE = 0.010457639372410269
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1441.252417
+         Iterations: 3
+         Function evaluations: 74
+Variance explained = 16.09898268047606 % RMSE = 0.019526323521091366
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1492.637288
+         Iterations: 3
+         Function evaluations: 81
+Variance explained = 5.175986391649545 % RMSE = 0.02310130200439268
+Mean (std) variance explained = 30.00428523002942 ( 27.749436863245915 )
+Mean (std) RMSE = 0.01769508829929811 ( 0.005321692588891825 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM14/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 217668)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM14/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM14/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM14/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1465.815004
+         Iterations: 2
+         Function evaluations: 62
+Variance explained = 10.127507222769571 % RMSE = 0.020785322310831526
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1479.268219
+         Iterations: 3
+         Function evaluations: 80
+Variance explained = 7.525843967310575 % RMSE = 0.02072857155544277
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1442.757202
+         Iterations: 2
+         Function evaluations: 63
+Variance explained = 14.473091975148488 % RMSE = 0.021245178605848205
+Mean (std) variance explained = 10.708814388409545 ( 2.865833472275299 )
+Mean (std) RMSE = 0.020919690824040837 ( 0.0002313177960277606 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM12/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 206190)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM12/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM12/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM12/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1501.767358
+         Iterations: 3
+         Function evaluations: 82
+Variance explained = 2.9022627344488128 % RMSE = 0.022541484173869496
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1498.243819
+         Iterations: 3
+         Function evaluations: 82
+Variance explained = 3.721439590246267 % RMSE = 0.02250815488729977
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1501.977214
+         Iterations: 3
+         Function evaluations: 80
+Variance explained = 2.837678931833576 % RMSE = 0.017630404006501402
+Mean (std) variance explained = 3.1537937521762185 ( 0.4022512606143468 )
+Mean (std) RMSE = 0.020893347689223556 ( 0.0023072897257457895 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM15/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 217609)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM15/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM15/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM15/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1338.247901
+         Iterations: 4
+         Function evaluations: 100
+Variance explained = 31.1961513348205 % RMSE = 0.014409212622593653
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1495.407419
+         Iterations: 3
+         Function evaluations: 79
+Variance explained = 4.650125901231039 % RMSE = 0.025728629736447708
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1447.330361
+         Iterations: 3
+         Function evaluations: 74
+Variance explained = 14.173828284310408 % RMSE = 0.01744689736251486
+Mean (std) variance explained = 16.673368506787316 ( 10.980547726867714 )
+Mean (std) RMSE = 0.01919491324051874 ( 0.004783580986504307 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM16/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 214036)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM16/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM16/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM16/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1191.454119
+         Iterations: 2
+         Function evaluations: 48
+Variance explained = 48.1901295738993 % RMSE = 0.013840699672760243
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 774.094860
+         Iterations: 2
+         Function evaluations: 48
+Variance explained = 76.92893623810565 % RMSE = 0.00928181324044727
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1430.170283
+         Iterations: 3
+         Function evaluations: 73
+Variance explained = 19.349861066886497 % RMSE = 0.017327950476234304
+Mean (std) variance explained = 48.15630895963048 ( 23.50657117018826 )
+Mean (std) RMSE = 0.013483487796480606 ( 0.003294518816427883 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM13/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 217136)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM13/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM13/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM13/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 365.263885
+         Iterations: 2
+         Function evaluations: 47
+Variance explained = 89.0094404100948 % RMSE = 0.006028719017874997
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1089.292232
+         Iterations: 2
+         Function evaluations: 47
+Variance explained = 58.34701675394258 % RMSE = 0.012235189645988711
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1230.417825
+         Iterations: 2
+         Function evaluations: 48
+Variance explained = 46.08047094331642 % RMSE = 0.014034633114087898
+Mean (std) variance explained = 64.4789760357846 ( 18.05408168707793 )
+Mean (std) RMSE = 0.010766180592650535 ( 0.003429495184238953 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM19/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 213244)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM19/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM19/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM19/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1475.890619
+         Iterations: 3
+         Function evaluations: 74
+Variance explained = 9.564504030411802 % RMSE = 0.020945493736768676
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1358.478038
+         Iterations: 3
+         Function evaluations: 74
+Variance explained = 30.325595716006205 % RMSE = 0.016623115252979874
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1418.361130
+         Iterations: 3
+         Function evaluations: 74
+Variance explained = 22.541409795718202 % RMSE = 0.017817709433543123
+Mean (std) variance explained = 20.81050318071207 ( 8.56359582873216 )
+Mean (std) RMSE = 0.018462106141097223 ( 0.0018224844355640866 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM18/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 208787)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM18/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM18/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM18/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 590.990577
+         Iterations: 2
+         Function evaluations: 47
+Variance explained = 83.30557154657933 % RMSE = 0.007994601941088504
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1272.759991
+         Iterations: 4
+         Function evaluations: 100
+Variance explained = 41.48837758187401 % RMSE = 0.015634550893501378
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1453.061435
+         Iterations: 2
+         Function evaluations: 62
+Variance explained = 12.963273283484911 % RMSE = 0.018641434369920058
+Mean (std) variance explained = 45.91907413731275 ( 28.887517895085377 )
+Mean (std) RMSE = 0.014090195734836648 ( 0.004481631758930042 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM20/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 206140)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM20/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM20/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM20/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1249.724142
+         Iterations: 4
+         Function evaluations: 101
+Variance explained = 42.095581611514774 % RMSE = 0.015395891581036807
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1464.008208
+         Iterations: 3
+         Function evaluations: 73
+Variance explained = 11.789859581623652 % RMSE = 0.018629797821225494
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1466.281908
+         Iterations: 2
+         Function evaluations: 62
+Variance explained = 10.277970975563166 % RMSE = 0.021908659482743648
+Mean (std) variance explained = 21.387804056233865 ( 14.655613037298048 )
+Mean (std) RMSE = 0.01864478296166865 ( 0.002658847476031837 )
+Writing output ...
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii.gz
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM21/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 209958)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 3 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM21/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Computing projections onto mask...
+Writing projection maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM21/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii
+Done.
+Processing data in /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/M2_results/CM21/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.nii/harvardoxford-subcortical_prob_RightPutamen_MNI152_T1_2mm_bin.cmaps.nii.gz
+Generating polynomial basis set of degree 2 ...
+Estimating model  1 of 3
+Optimization terminated successfully.
+         Current function value: 1438.817885
+         Iterations: 3
+         Function evaluations: 75
+Variance explained = 16.840026982252166 % RMSE = 0.018626462825674373
+Estimating model  2 of 3
+Optimization terminated successfully.
+         Current function value: 1447.101049
+         Iterations: 3
+         Function evaluations: 74
+Variance explained = 16.11790128099313 % RMSE = 0.018615803411112138
+Estimating model  3 of 3
+Optimization terminated successfully.
+         Current function value: 1407.499259
+         Iterations: 3
+         Function evaluations: 74
+Variance explained = 22.38156698386905 % RMSE = 0.01755585847445389
+Mean (std) variance explained = 18.44649841570478 ( 2.7980874252746877 )
+Mean (std) RMSE = 0.018266041570413467 ( 0.0005021941378389765 )
+Writing output ...

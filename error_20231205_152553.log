@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "conmap.py", line 298, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 202, in main
+    [evecs,Bhat,evals] = pca(B[:,keepB])
+  File "conmap.py", line 24, in pca
+    [U,sigma,V] = svd(X,full_matrices=False)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/scipy/linalg/decomp_svd.py", line 124, in svd
+    compute_uv=compute_uv, full_matrices=full_matrices)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/scipy/linalg/lapack.py", line 1017, in _compute_lwork
+    ret = routine(*args, **kwargs)
+ValueError: On entry to DGESDD parameter number 10 had an illegal value

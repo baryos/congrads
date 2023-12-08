@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "conmap.py", line 298, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 228, in main
+    l,y = eigh(L,D,eigvals=(0,nmaps))
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/scipy/linalg/decomp.py", line 581, in eigh
+    'or eigenvectors were computed.'.format(info-n))
+numpy.linalg.LinAlgError: The leading minor of order 1 of B is not positive definite. The factorization of B could not be completed and no eigenvalues or eigenvectors were computed.

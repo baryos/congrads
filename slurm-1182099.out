@@ -1,0 +1,5 @@
+1182099
+Input file: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rfMRI_REST_AP_PA/rfMRI_REST_AP_PA_Atlas_hp2000_clean_vn.dtseries.nii
+ROI file: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Output directory: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/test_result
+Submitted batch job 1182100

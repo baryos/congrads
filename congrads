@@ -63,7 +63,9 @@ shift $((OPTIND-1))
 
 [ "$1" =  "--" ] && shift
 
-type fslpython >/dev/null 2>&1 || { echo >&2 "Congrads requires fslpython but it's not installed. Aborting."; exit 1; }
+#type fslpython >/dev/null 2>&1 || { echo >&2 "Congrads requires fslpython but it's not installed. Aborting."; exit 1; }
+type python >/dev/null 2>&1 || { echo >&2 "Python is not installed. Aborting."; exit 1; }
+
 
 if [ ! $Fit -gt 0 ]; then
 
@@ -98,11 +100,13 @@ if [ ! $Fit -gt 0 ]; then
 	mkdir -p $out	
 	out="$(readlink -f $out)"
 
-	fslpython conmap.py -i ${infiles[@]} -r $roi -m $mas -o $out --nmaps $nev $eta $nor $pro
+	#fslpython conmap.py -i ${infiles[@]} -r $roi -m $mas -o $out --nmaps $nev $eta $nor $pro
+	python conmap.py -i ${infiles[@]} -r $roi -m $mas -o $out --nmaps $nev $eta $nor $pro
 
 	if [ $fit -gt 0 ]; then
 		cmap=${out}/$(basename "${roi}" .nii.gz).cmaps.nii.gz
-		fslpython trendsurf.py -i $cmap -r $roi -b $fit -o $out
+		#fslpython trendsurf.py -i $cmap -r $roi -b $fit -o $out
+		python trendsurf.py -i $cmap -r $roi -b $fit -o $out
 	fi
 
 else
@@ -130,7 +134,8 @@ else
 	echo "Writing results to: $out"
 	mkdir -p $out
 
-	fslpython trendsurf.py -i $fun -r $roi -o $out -b $Fit 
+	#fslpython trendsurf.py -i $fun -r $roi -o $out -b $Fit
+	python trendsurf.py -i $cmap -r $roi -b $fit -o $out -b $Fit
 
 fi
 

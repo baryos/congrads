@@ -1,0 +1,20 @@
+conmap.py:116: DeprecationWarning: get_data() is deprecated in favor of get_fdata(), which has a more predictable return type. To obtain get_data() behavior going forward, use numpy.asanyarray(img.dataobj).
+
+* deprecated from version: 3.0
+* Will raise <class 'nibabel.deprecator.ExpiredDeprecationError'> as of version: 5.0
+  roi = roiImg.get_data()
+conmap.py:136: DeprecationWarning: get_data() is deprecated in favor of get_fdata(), which has a more predictable return type. To obtain get_data() behavior going forward, use numpy.asanyarray(img.dataobj).
+
+* deprecated from version: 3.0
+* Will raise <class 'nibabel.deprecator.ExpiredDeprecationError'> as of version: 5.0
+  mask = maskImg.get_data()
+conmap.py:159: DeprecationWarning: get_data() is deprecated in favor of get_fdata(), which has a more predictable return type. To obtain get_data() behavior going forward, use numpy.asanyarray(img.dataobj).
+
+* deprecated from version: 3.0
+* Will raise <class 'nibabel.deprecator.ExpiredDeprecationError'> as of version: 5.0
+  data = dataImg.get_data()
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rfMRI_REST_AP_PA/rfMRI_REST_AP_PA_Atlas_hp2000_clean_vn.dtseries.nii
+/nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rfMRI_REST_AP_PA/rfMRI_REST_AP_PA_Atlas_hp2000_clean_vn.dtseries.nii is not a 4D image
+Exiting.

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "conmap.py", line 115, in main
+    roiImg = nib.load(roifile)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/nibabel/loadsave.py", line 105, in load
+    raise ImageFileError(msg)
+nibabel.filebasedimages.ImageFileError: File /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii.gz is not a gzip file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "conmap.py", line 298, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 118, in main
+    sys.exit('Cannot open ' + roifile | '\nExiting.')
+TypeError: unsupported operand type(s) for |: 'str' and 'str'

@@ -1,0 +1,951 @@
+1182333
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/mc/prefiltered_func_data_mcf_conf_hp.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/mc/prefiltered_func_data_mcf_conf.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/mask.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/mean.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_oIC.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(115, 211986)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 1 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/test_result/melodic_oIC.nii
+Done.
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_IC.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(115, 211986)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 1 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/test_result/melodic_IC.nii
+Done.
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/Noise__inv.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_pca.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(115, 211986)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 1 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/test_result/melodic_pca.nii
+Done.
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_1.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat1.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_3.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat3.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_4.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat4.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_5.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat5.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_6.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat6.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_7.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat7.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_8.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat8.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_9.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat9.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_10.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat10.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_11.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat11.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_12.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat12.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_13.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat13.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_14.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat14.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_15.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat15.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_16.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat16.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_17.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat17.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_18.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat18.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_19.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat19.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_20.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat20.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_21.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat21.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_22.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat22.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_23.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat23.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_24.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat24.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_25.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat25.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_26.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat26.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_27.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat27.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_28.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat28.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_29.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat29.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_30.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat30.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_31.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat31.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_32.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat32.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_33.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat33.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_34.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat34.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_35.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat35.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_36.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat36.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_37.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat37.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_38.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat38.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_39.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat39.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_40.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat40.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_41.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat41.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_42.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat42.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_43.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat43.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_44.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat44.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_45.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat45.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_46.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat46.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_47.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat47.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_48.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat48.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_49.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat49.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_50.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat50.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_51.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat51.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_52.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat52.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_53.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat53.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_54.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat54.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_55.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat55.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_56.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat56.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_57.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat57.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_58.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat58.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_59.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat59.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_60.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat60.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_61.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat61.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_62.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat62.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_63.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat63.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_64.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat64.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_65.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat65.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_66.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat66.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_67.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat67.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_68.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat68.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_69.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat69.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_70.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat70.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_71.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat71.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_72.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat72.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_73.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat73.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_74.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat74.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_75.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat75.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_76.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat76.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_77.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat77.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_78.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat78.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_79.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat79.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_80.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat80.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_81.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat81.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_82.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat82.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_83.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat83.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_84.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat84.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_85.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat85.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_86.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat86.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_87.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat87.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_88.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat88.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_89.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat89.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_90.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat90.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_91.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat91.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_92.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat92.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_93.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat93.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_94.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat94.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_95.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat95.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_96.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat96.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_97.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat97.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_98.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat98.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_99.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat99.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_100.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat100.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_101.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat101.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_102.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat102.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_103.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat103.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_104.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat104.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_105.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat105.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_106.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat106.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_107.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat107.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_108.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat108.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_109.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat109.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_110.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat110.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_111.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat111.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_112.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat112.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_113.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat113.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_114.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat114.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/probmap_115.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/stats/thresh_zstat115.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_mix.sdseries.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_oIC_vol.dscalar.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_oIC.dscalar.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data.ica/melodic_FTmix.sdseries.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/reg/veins.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/reg/veinbrainmask.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/reg/veins_exf.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske1.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske3.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske4.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/maske5.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge1.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge3.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge4.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/edge5.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_seg.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pve_0.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pve_1.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pve_2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_pveseg.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/fastsg_mixeltype.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/subcort.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/hr2exf.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc0.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc0dil.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc0dil2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc1.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc1dil.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc1dil2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc2dil.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc2dil2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc3.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc3dil.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/std1mm2exfunc3dil2.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/fix/hr2exfTMP.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 211986)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 1 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/test_result/filtered_func_data_clean.nii
+Done.
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.ica/filtered_func_data_clean_vn.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_SBRef.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_mean.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000_vn.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 211986)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 1 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/test_result/rest_AP_PA.nii
+Done.
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 211986)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 1 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/test_result/rest_AP_PA_hp2000.nii
+Done.
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_brain_mask.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000_clean.nii.gz
+WARNING: Mask includes voxels without variance.
+Computing voxel-wise connectivity fingerprints...
+(956, 211986)
+Computing similarity matrix...
+Computing the graph Laplacian...
+Computing the dominant 1 connectopic maps...
+Writing connectopic maps to: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess/CM01/test_result/rest_AP_PA_hp2000_clean.nii
+Done.
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_mean.dscalar.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas.dtseries.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000_vn.dscalar.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000.dtseries.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000_clean.dtseries.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_hp2000_clean_vn.nii.gz
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_hp2000_clean_vn.dscalar.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_mean.dscalar.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test.dtseries.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000_clean.dtseries.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000_vn.dscalar.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000.dtseries.nii
+Loading roi from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/ROIs/harvardoxford-subcortical_prob_LeftCaudate_LeftAccumbens_MNI152_T1_2mm_bin.nii
+Loading mask from: /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/MNI152_T1_2mm_brain_mask.nii.gz
+Processing /nafs/kcross/PROJECTS/Cueing_Noninvasive_Auditory/mri/data/preprocess2/CM01/MNINonLinear/Results/rest_AP_PA/rest_AP_PA_Atlas_MSMAll_Test_hp2000_clean_vn.dscalar.nii

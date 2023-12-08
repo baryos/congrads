@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "conmap.py", line 298, in <module>
+    main(args.infiles,args.roifile,args.maskfile,args.outdir,args.nmaps,args.save_eta2,args.norm_flag,args.proj_flag)
+  File "conmap.py", line 171, in main
+    data = np.reshape(data,(nVoxels,nFrames))
+  File "<__array_function__ internals>", line 6, in reshape
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 298, in reshape
+    return _wrapfunc(a, 'reshape', newshape, order=order)
+  File "/nafs/dtward/torch_venv/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 57, in _wrapfunc
+    return bound(*args, **kwds)
+ValueError: cannot reshape array of size 11472 into shape (902629,478)
